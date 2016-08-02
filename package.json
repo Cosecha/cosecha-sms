@@ -1,0 +1,17 @@
+{
+  "name": "cosecha-sms",
+  "version": "1.0.0",
+  "description": "A simple web app to send someone info about Cosecha through SMS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "twilio",
+    "javascript",
+    "react"
+  ],
+  "author": "Celso Mireles <celso@pocholabs.com>",
+  "license": "MIT"
+}
