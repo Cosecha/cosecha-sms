@@ -9,15 +9,13 @@ const SMSform = ({ onFilter, onMessageChange }) => {
     return (
         <div className="filterable-table">
             <input
-                value={phone}
+
                 ref={node => {input = node;}}
-                onChange={() => onFilter(input.value)}
                 placeholder="Cell Number" />
 
             <textarea
-              value={message}
+
               ref={node => {textarea = node;}}
-              onChange={() => onMessageChange(textarea.value)}
               placeholder="Your message about Cosecha..."
               ROWS="5"
             />
@@ -45,7 +43,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         onFilter: filterText => dispatch(filterTable(filterText)),
-        onMessageChange: function(){}
+        onMessageChange: function foo() {}
     };
 };
 
