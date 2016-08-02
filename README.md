@@ -11,4 +11,4 @@ That's good for now.
 
 ---
 
-Now to set up the app to use React and Webpack. I will be following some guides I have found online.
+Having a hard time wrapping my head around redux. May need to go back after studying this more.

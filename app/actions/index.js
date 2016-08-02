@@ -6,3 +6,7 @@ export function filterTable(filter) {
         filter
     };
 }
+
+export function onMessageChange(message) {
+  console.log('running onMessageChange...');
+}
